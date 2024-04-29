@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Your Company Name</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: relative; /* Ensure relative positioning for absolute positioning of buttons */
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        h1 {
+            margin-bottom: 0; /* Remove default margin for h1 */
+        }
+        h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .home-link, .contact-link {
+            text-decoration: none;
+            color: #fff;
+            background-color: #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            position: absolute;
+            top: 50%; /* Align buttons vertically */
+            transform: translateY(-50%); /* Adjust position */
+            right: 20px; /* Set both buttons on the right side */
+        }
+        .home-link:hover, .contact-link:hover {
+            background-color: #555;
+        }
+        .home-link {
+            right: 120px; /* Adjust home button position */
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+        <a href="contact.html" class="contact-link">Contact</a>
+        <a href="index.html" class="home-link">Home</a>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Service 1</h2>
+            <p>Description of Service 1.</p>
+        </section>
+        <section>
+            <h2>Service 2</h2>
+            <p>Description of Service 2.</p>
+        </section>
+        <section>
+            <h2>Service 3</h2>
+            <p>Description of Service 3.</p>
+        </section>
+        <!-- Add more services as needed -->
+    </div>
+    <footer>
+        <p>&copy; 20XX Your Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
